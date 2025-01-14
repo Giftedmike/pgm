@@ -17,6 +17,28 @@ const Banner = () => {
               </div>
             </div>
           </div>
+        
+          <div className="justify-content-center row text-center pt-4">
+            <div className="col d-none d-lg-inline">
+              <button className='btn btn-warning p-5 btn-lg mb-3'><h1>We</h1></button>
+            </div>
+            <div className="col d-none d-lg-inline">
+            <button className='btn btn-warning pt-5 pb-5  btn-lg mb-3'><h1>Promote</h1></button>
+            </div>
+            <div className="col d-none d-lg-inline">
+            <button className='btn btn-warning p-5 btn-lg mb-3'><h1>God's</h1></button>
+            </div>
+            <div className="col d-none d-lg-inline">
+            <button className='btn btn-warning pt-5 pb-5 btn-lg mb-3'><h1>Kingdom</h1></button>
+            </div>
+            <div className="col d-none d-lg-inline">
+            <button className='btn btn-warning p-5 btn-lg mb-3'><h1>On</h1></button>
+            </div>
+            <div className="col d-none d-lg-inline">
+            <button className='btn btn-warning p-5 btn-lg mb-3'><h1>Earth</h1></button>
+            </div>
+          </div>
+          
         </div>
     </>
   )
