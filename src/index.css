@@ -4,3 +4,14 @@
   background-attachment: fixed; 
   background-size: 100% 100%;
 }
+.carousel-inner {
+  border-radius: 30px;
+}
+.services {
+  transition: transform .2s;
+}
+.services:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
