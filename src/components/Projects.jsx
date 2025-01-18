@@ -36,7 +36,7 @@ const Projects = () => {
             <div className="card" style={{width: '19rem'}}>
             <img src="future.gif" className="card-img-top img1" alt="Web Design" />
             <div className="card-body bg-info">
-                <h5 className="card-title">Waiting On The Lord</h5>
+                <h5 className="card-title">Waiting On The Lord...</h5>
                 <p className="card-text">We will create professional websites for churches, enabling them to promote their ministries, share their message online to promote the Gospel of Christ.</p>
                 <a href="#" className="btn btn-primary">Future Projects</a>
             </div>
