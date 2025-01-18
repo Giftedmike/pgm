@@ -13,7 +13,7 @@ const Service = () => {
                 <h5 className="card-title">Church Beautification</h5>
                 <p className="card-text">We will provide interior and exterior design services to enhance the aesthetic appeal of churches, creating a welcoming and beautiful environment for worshippers.
                 </p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
+                
             </div>
         </div>
             </div>
@@ -27,7 +27,7 @@ const Service = () => {
                                         - Pulpits, altars, Chairs <br />
                                         - Sound and audio-visual systems
                                     </p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
+                
             </div>
         </div>
             </div>
@@ -37,7 +37,7 @@ const Service = () => {
             <div className="card-body bg-warning">
                 <h5 className="card-title">Website Design</h5>
                 <p className="card-text">We will create professional websites for churches, enabling them to promote their ministries, share their message online to promote the Gospel of Christ.</p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
+                
             </div>
         </div>
             </div>
@@ -47,7 +47,7 @@ const Service = () => {
             <div className="card-body bg-info">
                 <h5 className="card-title">Church Construction</h5>
                 <p className="card-text">We will provide comprehensive construction services, from design to completion, for new worship centers or renovation and completion of existing ones.</p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
+                
             </div>
         </div>
             </div>

@@ -6,6 +6,7 @@ import NavBar from './components/NavBar.jsx'
 import Banner from './components/Banner.jsx'
 import About from './components/About.jsx'
 import Service from './components/Service.jsx'
+import Projects from './components/Projects.jsx'
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.js'
 
@@ -16,5 +17,6 @@ createRoot(document.getElementById('root')).render(
     <Banner />
     <About />
     <Service />
+    <Projects />
   </StrictMode>,
 )
