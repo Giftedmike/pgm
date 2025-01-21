@@ -9,8 +9,12 @@ import Service from './components/Service.jsx'
 import Partners from './components/Partners.jsx'
 import Mission from './components/Mission.jsx'
 import Projects from './components/Projects.jsx'
+import Testimony from './components/Testimony.jsx'
+import Contact from './components/Contact.jsx'
+import Footer from './components/Footer.jsx'
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.js'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -22,5 +26,8 @@ createRoot(document.getElementById('root')).render(
     <Partners />
     <Mission />
     <Projects />
+    <Testimony />
+    <Contact />
+    <Footer />
   </StrictMode>,
 )
