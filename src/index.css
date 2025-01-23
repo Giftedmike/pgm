@@ -21,3 +21,7 @@
 .img1 {
   width: 200px !important;
 }
+footer {
+  padding-bottom: none !important;
+  margin-bottom: none !important;
+}
