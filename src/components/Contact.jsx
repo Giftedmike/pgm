@@ -3,8 +3,53 @@ import React from 'react'
 const Contact = () => {
   return (
     <>
-        <div className='text-center text-light'>
-            <h1>Contact</h1>
+        <div className='container bg-light rounded pt-4'>
+            <h1 className='text-center'>Contact</h1>
+            <div className="container row pt-2 h5">
+              <div className="col-md-4 pb-4">
+                <img src="Jesus.png" className='rounded' alt="" />
+              </div>
+              <div className="col-md-8">
+                <form action="">
+                  <div className="row pt-2">
+                    <div className="col-md-6 pb-3">
+                      <label htmlFor="fName" class="form-label">Full Name</label>
+                      <input type="text" class="form-control shadow p-2" id="fName" placeholder="Enter Your Full Name" required />
+                    </div>
+                    <div className="col-md-6">
+                      <label htmlFor="pNo" class="form-label">Phone Number</label>
+                      <input type="text" class="form-control shadow p-2" id="pNo" placeholder="Enter Your Phone Number" required />
+                    </div>
+                    <div className="row pt-4">
+                      <div className="col-12">
+                        <label htmlFor="fName" class="form-label">Full Address</label>
+                        <input type="text" class="form-control shadow p-2" id="fName" placeholder="Enter Your Full Name" required />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row pt-4">
+                    <div class="col-md-6 pb-3">
+                      <label for="City" class="form-label">City</label>
+                      <input type="text" class="form-control shadow p-2" id="City" placeholder="Enter The City You Currently Reside" required />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="state" class="form-label">State</label>
+                      <input type="text" class="form-control shadow p-2" id="state" placeholder="Enter The State You Currently Reside" required />
+                    </div>
+                  </div>
+
+                  <div className="row pt-4">
+                      <div className="col-12">
+                        <label htmlFor="prayer" class="form-label">Prayer Request</label>
+                        <textarea type="text" class="form-control shadow p-2" id="prayer" placeholder="Enter Your Prayer Request" required />
+                      </div>
+                  </div>
+                  <div className='text-center pt-4 pb-3'>
+                    <button className='btn btn-primary p-2'>Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
         </div>
     </>
   )

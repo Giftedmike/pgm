@@ -15,7 +15,7 @@ const Testimony = () => {
                 <hr />
                 – Testimony submitted by Ifeanyi D. E. <hr />
                 Thank you for viewing this testimony. You too can have testimonies - It starts by giving your life to Christ or rededicating your life to Him.
-                If you are set to say YES to JESUS, Kindly fill the form below. God bless you.
+                If you are set to say YES to JESUS, Kindly fill the form below and let us be part of your joy. God bless you.
                 </p>
                 <button className='btn btn-primary'>
                     Source
@@ -35,7 +35,7 @@ const Testimony = () => {
                 – Testimony submitted by Olumuyiwa T. <hr />
 
                 Thank you for viewing this testimony. You too can have testimonies - It starts by giving your life to Christ or rededicating your life to Him.
-                If you are set to say YES to JESUS, Kindly fill the form below. God bless you.
+                If you are set to say YES to JESUS, Kindly fill the form below and let us be part of your journey. God bless you.
                                     </p>
                 <button className='btn btn-primary'>
                     Source
