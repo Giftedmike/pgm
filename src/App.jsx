@@ -1,52 +1,65 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import NavBar from './components/NavBar.jsx';
+import Banner from './components/Banner.jsx';
+import About from './components/About.jsx';
+import Service from './components/Service.jsx';
+import Partners from './components/Partners.jsx';
+import Mission from './components/Mission.jsx';
+import Projects from './components/Projects.jsx';
+import Testimony from './components/Testimony.jsx';
+import Contact from './components/Contact.jsx';
+import Footer from './components/Footer.jsx';
+
 
 const App = () => {
+  const location = useLocation();
+
+  // Scroll to the section based on the URL's path
+  useEffect(() => {
+    // Extract the section name from the URL path (remove leading '/')
+    const sectionId = location.pathname.substring(1).toLowerCase();
+
+    if (sectionId) {
+      const element = document.getElementById(sectionId); // Find element by ID
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' }); // Smooth scroll to the section
+      }
+    }
+  }, [location]);
+
   return (
     <>
-      <div className='container py-4 d-flex justify-content-center'>
-        <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
-          <div className="carousel-inner text-light">
-            <div className="carousel-item active">
-              <h4>Matthew 6:33: "You are Favoured"</h4>
-            </div>
-            <div className="carousel-item">
-              <h4>Matthew 6:33: "You are Great"</h4>
-            </div>
-            <div className="carousel-item">
-              <h4>Matthew 6:33: "You are Free"</h4>
-            </div>
-            <div className="carousel-item">
-              <h4>Matthew 6:33: "You are Sanctified"</h4>
-            </div>
-            <div className="carousel-item">
-              <h4>Matthew 6:33: "You are Loved"</h4>
-            </div>
-            <div className="carousel-item">
-              <h4>Matthew 6:33: "You are Saved"</h4>
-            </div>
-            <div className="carousel-item">
-              <h4>Matthew 6:33: "You are Empower"</h4>
-            </div>
-            <div className="carousel-item">
-              <h4>Matthew 6:33: "You are Enthroned"</h4>
-            </div>
-            <div className="carousel-item">
-              <h4>Matthew 6:33: "You are Enlighten"</h4>
-            </div>
-            <div className="carousel-item">
-              <h4>Matthew 6:33: "You are Healed"</h4>
-            </div>
-            <div className="carousel-item">
-              <h4>You are lifted</h4>
-            </div>
-            <div className="carousel-item">
-              <h4>You are blessed</h4>
-            </div>
-          </div>
-        </div>
+      <NavBar />
+      <div>
+        <section id="banner">
+          <Banner />
+        </section>
+        <section id="about">
+          <About />
+        </section>
+        <section id="service">
+          <Service />
+        </section>
+        <section id="partners">
+          <Partners />
+        </section>
+        <section id="mission">
+          <Mission />
+        </section>
+        <section id="projects">
+          <Projects />
+        </section>
+        <section id="testimony">
+          <Testimony />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
       </div>
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

@@ -25,3 +25,21 @@ footer {
   padding-bottom: none !important;
   margin-bottom: none !important;
 }
+
+#banner {
+  padding-top: 80px; /* Adjust this based on navbar height */
+}
+#service {
+  padding-top: 40px; /* Adjust this based on navbar height */
+}
+
+#projects {
+  padding-top: 50px; /* Adjust this based on navbar height */
+}
+#testimony {
+  padding-top: 40px; /* Adjust this based on navbar height */
+}
+
+#about {
+  padding-top: 40px; /* Adjust this based on navbar height */
+}

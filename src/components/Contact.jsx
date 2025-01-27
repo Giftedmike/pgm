@@ -12,36 +12,37 @@ const Contact = () => {
               <div className="col-md-8">
                 <form action="">
                   <div className="row pt-2">
+                  <h5 className='text-center pb-5'>If you are ready to receive JESUS as your Lord and Personal SAVIOUR, <br /> Please Fill the Form Below</h5>
                     <div className="col-md-6 pb-3">
-                      <label htmlFor="fName" class="form-label">Full Name</label>
-                      <input type="text" class="form-control shadow p-2" id="fName" placeholder="Enter Your Full Name" required />
+                      <label htmlFor="fName" className="form-label">Full Name</label>
+                      <input type="text" className="form-control shadow p-2" id="fName" placeholder="Enter Your Full Name" required />
                     </div>
                     <div className="col-md-6">
-                      <label htmlFor="pNo" class="form-label">Phone Number</label>
-                      <input type="text" class="form-control shadow p-2" id="pNo" placeholder="Enter Your Phone Number" required />
+                      <label htmlFor="pNo" className="form-label">Phone Number</label>
+                      <input type="text" className="form-control shadow p-2" id="pNo" placeholder="Enter Your Phone Number" required />
                     </div>
                     <div className="row pt-4">
                       <div className="col-12">
-                        <label htmlFor="fName" class="form-label">Full Address</label>
-                        <input type="text" class="form-control shadow p-2" id="fName" placeholder="Enter Your Full Name" required />
+                        <label htmlFor="fName" className="form-label">Full Address</label>
+                        <input type="text" className="form-control shadow p-2" id="fName" placeholder="Enter Your Full Name" required />
                       </div>
                     </div>
                   </div>
                   <div className="row pt-4">
-                    <div class="col-md-6 pb-3">
-                      <label for="City" class="form-label">City</label>
-                      <input type="text" class="form-control shadow p-2" id="City" placeholder="Enter The City You Currently Reside" required />
+                    <div className="col-md-6 pb-3">
+                      <label htmlFor="City" className="form-label">City</label>
+                      <input type="text" className="form-control shadow p-2" id="City" placeholder="Enter The City You Currently Reside" required />
                     </div>
-                    <div class="col-md-6">
-                      <label for="state" class="form-label">State</label>
-                      <input type="text" class="form-control shadow p-2" id="state" placeholder="Enter The State You Currently Reside" required />
+                    <div className="col-md-6">
+                      <label htmlFor="state" className="form-label">State</label>
+                      <input type="text" className="form-control shadow p-2" id="state" placeholder="Enter The State You Currently Reside" required />
                     </div>
                   </div>
 
                   <div className="row pt-4">
                       <div className="col-12">
-                        <label htmlFor="prayer" class="form-label">Prayer Request</label>
-                        <textarea type="text" class="form-control shadow p-2" id="prayer" placeholder="Enter Your Prayer Request" required />
+                        <label htmlFor="prayer" className="form-label">Prayer Request</label>
+                        <textarea type="text" className="form-control shadow p-2" id="prayer" placeholder="Enter Your Prayer Request" required />
                       </div>
                   </div>
                   <div className='text-center pt-4 pb-3'>
